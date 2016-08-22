@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'name' => 'irc.localhost',
+    'port' => 6667,
+    'bind' => '0.0.0.0',
+];

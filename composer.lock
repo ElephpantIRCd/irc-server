@@ -1,0 +1,104 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "75e58abe13c950e298c2f6aadd2debcd",
+    "content-hash": "58331dd02079e44899ab0c455dbcf331",
+    "packages": [
+        {
+            "name": "elephpantircd/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ElephpantIRCd/framework.git",
+                "reference": "e4880d5f8ffa99113e4a490f7c17993455b42087"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ElephpantIRCd/framework/zipball/e4880d5f8ffa99113e4a490f7c17993455b42087",
+                "reference": "e4880d5f8ffa99113e4a490f7c17993455b42087",
+                "shasum": ""
+            },
+            "require": {
+                "navarr/sockets": "dev-master",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ElephpantIRCd\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Navarr Barnier",
+                    "email": "me@navarr.me"
+                }
+            ],
+            "description": "PHP IRC Daemon Framework",
+            "time": "2016-08-22 01:13:30"
+        },
+        {
+            "name": "navarr/sockets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/navarr/Sockets.git",
+                "reference": "f33eb151e87ceeeb9db9ae9bd949d8861a95076e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/navarr/Sockets/zipball/f33eb151e87ceeeb9db9ae9bd949d8861a95076e",
+                "reference": "f33eb151e87ceeeb9db9ae9bd949d8861a95076e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sockets": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "symfony/class-loader": "2.2.x-dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Navarr\\Socket\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Navarr Barnier",
+                    "email": "me@navarr.me",
+                    "homepage": "http://tech.navarr.me/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Sockets in PHP",
+            "time": "2016-04-22 15:51:25"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
